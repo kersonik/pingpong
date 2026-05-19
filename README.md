@@ -24,9 +24,9 @@ pip install pygame
 ## How to Play
 *   **Run the script:**
     ```bash
-    python main.py
+    python main.py```
     
-```
+
 *   **Menu Navigation:**
     *   Use **↑/↓** or **W/S** keys to move between options.
     *   Press **Enter** to select.
