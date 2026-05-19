@@ -17,15 +17,15 @@ A classic, fully functional Ping Pong game implemented in Python using the `pyga
 *   `pygame` library
 
 To install the dependency, run:
-`bash
+``bash
 pip install pygame
-`
+```
 
 ## How to Play
 *   **Run the script:**
-    `bash
+    ```bash
     python main.py
-    ` 
+    ``` 
 
 *   **Menu Navigation:**
     *   Use **↑/↓** or **W/S** keys to move between options.
