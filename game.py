@@ -94,7 +94,7 @@ def draw(fps_overlay=False, fps_value=0.0):
         speed = math.hypot(ball_vx, ball_vy) * game_speed_multiplier
     except Exception:
         speed = 0.0
-    speed_text = small_font.render(f'Rychlost: {speed:.1f}', True, LIGHT_GRAY)
+    speed_text = small_font.render(f'Ball speed: {speed:.1f}', True, LIGHT_GRAY)
     SCREEN.blit(speed_text, (WIDTH//2 - speed_text.get_width()//2, 8))
 
     if fps_overlay:
@@ -220,7 +220,7 @@ fps_options = [30, 60, 120]
 fps_index = 1  # default 60
 
 # New display-related settings
-resolution_options = [(800,600),(1024,768),(1280,720),(1366,768),(1920,1080)]
+resolution_options = [(800,600),(1024,768),(1280,720),(1366,768),(1600,900),(1920,1080)]
 resolution_names = [f"{w}x{h}" for (w,h) in resolution_options]
 resolution_index = 0  # default matches initial WIDTH/HEIGHT
 fullscreen = False
